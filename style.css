@@ -1,0 +1,52 @@
+#change{
+    background-image: url('./images/blob (2).svg');
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover; 
+    width: 1200px; 
+    height: 600px;
+    color: white;
+}
+#chiste{
+    width: 50%;
+    margin-top: 40px;
+}
+#temperatura{
+    color: black;
+}
+
+@media (max-width: 1000px) {
+    #change{
+        background-position: center;
+        width: 800px; 
+        height: 700px;
+        color:black;
+    }
+    #chiste{
+        width: 100%;
+    }
+  }
+@media (max-width: 600px) {
+    #change{
+        background-position: center;
+        width: 500px; 
+        height: 700px;
+        margin: 0;
+        overflow: hidden;
+    }
+    #chiste{
+        width: 75%;
+    }
+  }
+  @media (max-width: 450px) {
+    #change{
+        background-position: center;
+        width: 350px; 
+        height: 700px;
+        margin: 0;
+        overflow: hidden;
+    }
+    #chiste{
+        width: 75%;
+    }
+  }
